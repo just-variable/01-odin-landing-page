@@ -1,0 +1,179 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    display: inline-flex;
+    margin: 0;
+    background-color: #1f2937;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.9rem;
+}
+
+#headerLogo{
+    flex: 1;
+    margin-right: auto;
+    margin-left: 5rem;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-right: 5rem;
+}
+
+nav > ul > li{
+    flex: 0 1 auto;
+}
+
+#introDiv {
+    margin: 0;
+    background-color:#1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#introDiv div {
+    flex: 1;
+    margin: 0 5rem;
+    padding: 3rem;
+}
+
+#introDiv div button{
+    background-color: #3882f8;
+    border: 0;
+    border-radius: 5%;
+    padding: 0.3rem;
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 500;
+}
+
+#introDiv div img{
+    max-height: 17rem;
+}
+
+#mainDiv{
+    width: 100%;
+    background-color: #f9faf8;
+}
+
+#mainDiv h4{
+    color: #1f2937;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#mainDiv #imgDiv{
+    width: 100%;
+    display: flex;
+}
+
+#mainDiv #imgDiv #mainUl{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+}
+
+#mainDiv #imgDiv #mainUl li {
+    padding: 0;
+    margin: 0;
+    max-width: 7rem;
+}
+
+#mainDiv #imgDiv #mainUl ul{
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+#mainDiv #imgDiv #mainUl ul li:first-child {
+    height: 6rem;
+    width: 6rem;
+    border: 2px solid #3882f6;
+    border-radius: 5%;
+}
+
+#mainDiv #imgDiv #mainUl ul li:nth-child(2) {
+    color: gray;
+    text-align: center;
+}
+
+#quoteDiv {
+    margin: 5rem 0;
+    padding: 2rem 10rem;
+    color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+}
+
+#quoteDiv p {
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 1rem 15rem;
+}
+
+#quoteDiv p#thorSignature{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: -4rem;
+}
+
+#signupDiv{
+    background-color: #3882f6;
+    border-radius: 7px;
+    margin: 0rem 5rem;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#signupDiv h3{
+    margin: 0;
+
+}
+
+#signupDiv p{
+    margin: 0.1rem 0;
+}
+
+#signupDiv div button{
+    background-color: #3882f8;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-family: roboto;
+    font-weight: 500;
+    color: white;
+}
+
+#footerDiv{
+    background-color: #1f2937;
+    margin: 0;
+    margin-top: 3rem;
+    padding: 1rem 5rem;
+}
+
+#footerDiv p{
+    margin: 0;
+    text-align: center;
+}
